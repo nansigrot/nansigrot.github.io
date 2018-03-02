@@ -1,4 +1,4 @@
-const debug = true ? console.log.bind(console, '[ServiceWorker]'), () => {};
+const debug = true ? console.log.bind(console, '[ServiceWorker]') : () => {};
 
 class ServiceWorker {
   init() {
